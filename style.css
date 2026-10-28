@@ -1,34 +1,80 @@
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
-    color: #222;
-    text-align: center;
-    padding: 40 px;
+* {
+    box-sizing: border-box;
 }
 
-h1 {
-    color: #1769aa;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+header {
+    background: #1769aa;
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1 {
+    margin: 0 0 10px;
+    font-size: 36px;
+}
+
+header p {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
 h2 {
-    color: #333;
+    color: #1769aa;
 }
 
-p {
-    font-size: 18 px;
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin: 8px 0;
 }
 
 button {
-    background-color: #1769aa;
+    background: #1769aa;
     color: white;
     border: none;
-    padding: 12 px 24 px;
-    border-radius: 8 px;
+    border-radius: 8px;
+    padding: 12px 22px;
+    font-size: 16px;
     cursor: pointer;
-    font-size: 16 px;
 }
 
 button:hover {
-    background-color: #0d4775;
+    background: #0d4775;
 }
+
+#message {
+    color: #1769aa;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #64748b;
+}
+
