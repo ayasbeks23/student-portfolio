@@ -1,6 +1,7 @@
 
 const button = document.getElementById("helloButton");
+const message = document.getElementById("message");
 
 button.addEventListener("click", function () {
-    alert("Git и GitHub работают!");
+    message.textContent = "Отлично! JavaScript работает!";
 });
